@@ -7,13 +7,7 @@ rand augment의 경우 epoch을 돌릴때 augmentaion 종류 중에 하나가 �
 따라서 epoch을 늘릴 때 augmentation을 늘린 게 효과를 발휘한다
 
 fastai, w&b
-
-
-
-
-
 data loader + converting + augmentation / model(unet, swim transformer) / train / inference
-
 
 1. Unet Fastai baseline 코드 error 고쳐나가면서 실행해보기
 2. model 자리에 swim transformer 적용해보기
@@ -23,3 +17,12 @@ imports / paths / additionals / random choice / augmentations / Dataset / image 
 4. dataaugmentation 방법 추가해보기
 5. loss function (lovasz)(dice) 
 6. fastai를 pytorch 로 바꿔보기
+
+# pull reqeust 하는 법
+1. origin repo를 fork
+2. fetch upstream
+3. modify
+4. pull request
+5. origin repo에서 merge
+6. repeat 2-5
+ * 모든 사람이 봐야 할 수정사항이 있다면 pull request로 작성하기 (새로운 버전의 코드 등)
