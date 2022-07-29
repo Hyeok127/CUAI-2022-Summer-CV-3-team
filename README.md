@@ -39,4 +39,4 @@ imports / paths / additionals / random choice / augmentations / Dataset / image 
 
 # code
  * https://www.kaggle.com/code/iafoss/hubmap-pytorch-fast-ai-starter 
-  * baseline 코드가 참고했던 baseline
+   * baseline 코드가 참고했던 baseline
