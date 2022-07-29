@@ -1,3 +1,5 @@
+* 이 문서에서 글을 지우는 건 pull request로 해주세요
+
 # CUAI-2022-Summer-CV-3-team
 segmentation은 image 크기가 달라도 학습할 수 있다
 근데 코드들 보면 사람들이 다 iamge size 256x256으로 맞추던데?
@@ -26,3 +28,15 @@ imports / paths / additionals / random choice / augmentations / Dataset / image 
 5. origin repo에서 merge
 6. repeat 2-5
  * 모든 사람이 봐야 할 수정사항이 있다면 pull request로 작성하기 (새로운 버전의 코드 등)
+
+# data
+|dataset|volume|number of data|
+|------|---|---|
+|origin|9.39g|351|
+|256|318m|2791|
+|512|1.32g|2895|
+|128|87m|3148|
+
+# code
+ * https://www.kaggle.com/code/iafoss/hubmap-pytorch-fast-ai-starter 
+  * baseline 코드가 참고했던 baseline
